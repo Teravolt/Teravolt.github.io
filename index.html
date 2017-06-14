@@ -1,209 +1,198 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Pavan Kantharaju's Webpage</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
 
-<head>
+		<!-- Header -->
+			<div id="header">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+				<div class="top">
 
-    <title>Pavan Kantharaju's Webpage</title>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/pavan.jpg" alt="" /></span>
+							<h1 id="title">Pavan Kantharaju</h1>
+							<p>PhD in Computer Science</p>
+						</div>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
 
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+								Prologue's nav expects links in one of two formats:
 
-    <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+								1. Hash link (scrolls to a different section within the page)
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-</head>
+								2. Standard link (sends the user to another page/site)
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Pavan Kantharaju</span>
-                </a>
-            </div>
+							-->
+							<ul>
+								<li><a href="#intro" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
+								<li><a href="#research" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-flask">Research</span></a></li>
+	                            <li><a href="#teaching" id="research-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Teaching</span></a></li>
+								<li><a href="#personal" id="personal-link" class="skel-layers-ignoreHref"><span class="icon fa-laptop">Personal Projects</span></a></li>
+								<li><a href="#interesting" id="interesting-link" class="skel-layers-ignoreHref"><span class="icon fa-gamepad">Interesting Stuff</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#research">Research</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#teaching">Teaching</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projects">Personal Projects</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+				</div>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1> Pavan Kantharaju's Personal Webpage</h1>
-                        <p class="intro-text">PhD Candidate | Amateur Photographer <br> Video game Enthusiast
-                            </p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+				<div class="bottom">
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/Teravolt" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
+						</ul>
+				</div>
+			</div>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>About Me</h2>
-                <p> I'm currently a 3rd year Drexel University PhD student studying Computer Science. In my spare time, I dabble in photography and various development projects. </p>
-            </div>
-        </div>
-    </section>
+		<!-- Main -->
+			<div id="main">
+				<!-- Intro -->
+					<section id="intro" class="one dark cover">
+						<div class="container">
+							<header>
+								<h2 class="alt">Pavan Kantharaju's Personal Webpage</h2>
+                                <p>Computer Science PhD Candidate<br/>
+                                Drexel University</p>
+							</header>
+						</div>
+					</section>
 
-    <!-- Research Section -->
-    <section id="research" class="content-section text-center">
-        <div class="research-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Research</h2>
-                        <p> My research focuses on applying machine learning techniques to induce Combinatory Categorial Grammars (CCGs) for Planning and Plan Recognition. I am particularly interested in developing novel techniques for learning state and action grammar knowledge from plan traces informed by CCG learning from NLP, and applying them to games and robotics. </p>
-                        <h3> Projects </h3>
-                        <p>
-                        <strong>LexLearn</strong> - A CCG learning algorithm developed using the ELEXIR system <br>
+				<!-- Portfolio -->
+					<section id="research" class="two">
+						<div class="container">
 
-                        <strong>Jarvis, the virtual assistant</strong> - A virtual robot simulated in the Unity Game Engine
-                        </p>
-                        <h3> Publications </h3>
-                        <p>
-                            Pending
-                        </p>
-                </div>
-            </div>
-        </div>
-    </section>
+							<header> <h2>Research Statement</h2> </header>
+                                My research focuses on applying machine learning techniques to induce Combinatory Categorial Grammars (CCGs) for Planning and Plan Recognition. I am particularly interested in developing novel techniques for learning state and action grammar knowledge from plan traces informed by CCG learning from NLP, and applying them to games and robotics.
+                            <br></br>
 
-    <!-- teaching Section -->
-    <section id="teaching" class="content-section text-center">
-        <div class="teaching-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Courses I've assisted</h2>
-                    <p>
-                        Introduction to Computing and Informatics <br>
-                        Introduction to Algorithms  <br> 
-                        Programming Languages <br>
-                        Developing User Interfaces <br>
-                        Special Topics: Cryptography <br>
-                        Computer Graphics <br>
-                        Into to Unix 
-                    <ul>
-                </div>
-            </div>
-        </div>
-    </section>
+	                        <header> <h2>Projects and Publications</h2> </header> 
+                                <h3> Projects </h3>
+                                <ul>
+                                    <li> <strong>LexLearn</strong> - A CCG learning algorithm developed using the ELEXIR system</li>
+                                    <li> <strong>Jarvis, the virtual assistant</strong> - A virtual robot simulated in the Unity Game Engine</li>
+                                </ul>
+                                <h3> Publications </h3>
+                                <ul>
+                                    <li> Pending... </li> 
+                                </ul>
 
-    <!-- Personal Section -->
-    <section id="projects" class="content-section text-center">
-        <div class="personal-projects-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Personal Projects</h2>
-                        <p>In my spare time, I work on various side projects. Here's a list of interesting personal projects I work on:</p>
-                        <p>
-                            <strong>Discord Chat Bot, R2D2</strong> - Chat bot for a Discord server I frequent<br>
-                            <strong>Personal C Library</strong> - Assorted functions related to matrices, file IO, etc.<br>
-                        </p>
-                        <h3><strong>Future side projects?</strong></h3>
-                            <p>Life-size autonomous R2D2 </p>
-                </div>
-            </div>
-        </div>
-    </section>
+						</div>
+					</section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Me</h2>
-                <p> University Email: 
-                    <a href="mailto:pk398@drexel.edu.com">pk398@drexel.edu</a> 
-                </p>
-                <ul class="list-inline banner-social-buttons">
-<!--                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li> -->
-                    <li>
-                        <a href="https://github.com/Teravolt" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-<!--                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li> -->
-                </ul>
-            </div>
-        </div>
-    </section>
+                    <!-- Teaching -->
+					<section id="teaching" class="three">
+						<div class="container">
+							<header> <h2>Teaching</h2> </header>
+                                <p> During my studies as a graduate student, I've assisted professors on various courses. Below is a list of these courses: </p>
+                                <ul>
+                                    <li> Introduction to Computing and Informatics  </li>
+                                    <li> Introduction to Algorithms  </li>
+                                    <li> Programming Languages </li>
+                                    <li> Developing User Interfaces </li>
+                                    <li> Special Topics: Cryptography </li>
+                                    <li> Computer Graphics </li>
+                                    <li> Into to Unix </li>                     
+                                <ul>
+                        </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; *insert name* 2017</p>
-        </div>
-    </footer>
+                    </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.js"></script>
+				    <!-- Personal Projects -->
+					<section id="personal" class="three">
+						<div class="container">
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+							<header> <h2>Personal Projects</h2> </header>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<!--							<a href="#" class="image featured"><img src="images/Jarvis.png" alt="" /></a> -->
 
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+							<p>In my spare time, I work on various side projects. Here's a list of interesting personal projects I work on:</p>
 
-</body>
+                            <ul>
+                                <li>Discord Chat Bot, R2D2 - Chat bot for a Discord server I frequent</li>
+                                <li>C Library - Assorted functions related to matrices, file IO, etc.</li>
+                            </ul>               
 
+							<p><strong>Future side projects?</strong></p>
+                            <ul>
+                                <li> Life-size autonomous R2D2 </li>
+                            </ul>               
+						</div>
+					</section>
+
+                    <section id="interesting" class="three">
+					    <div class="container">
+							<header> <h2>Interesting Stuff</h2> </header>
+                         							
+                        </div>
+                    </section>
+
+				<!-- About Me -->
+<!--							<a href="#" class="image featured"><img src="images/pavan-full.jpg" alt="" /></a> -->
+
+					<section id="about" class="three">
+						<div class="container">
+							<header>
+								<h2>About Me</h2>
+							</header>
+                            <div style="float:left; width: 40%" >
+                                <img src="images/pavan-portrait.jpg" style="width:350px;height:350px;">
+                            </div>
+                            <div style="float:right; width: 50%" >
+							    <p>I'm currently a 3rd year Drexel University PhD student studying Computer Science. In my spare time, I dabble in photography and various development projects (the image at the top is from my trip to India in 2016).</p>
+                            </div> 
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+							<header> <h2>Contact</h2> </header>
+                            <p> I can be reached at my Drexel University email: <a href="mailto:pk398@drexel.edu">pk398@drexel.edu</a> </p>
+                        </div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
