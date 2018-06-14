@@ -1776,9 +1776,14 @@
 		padding-left: 1.25em;
 	}
 
-		ol.default li {
-			padding-left: 0.25em;
-		}
+	ol.default li {
+		padding-left: 0.25em;
+	}
+
+    ol.a {
+		list-style: upper-roman;
+		padding-left: 1.25em;
+    }
 
 /* Form */
 
