@@ -11,8 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="is-preload">
-
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="venn.js"></script>
+	<body class="is-preload">		
 		<!-- Header -->
 			<section id="header">
 				<header>
@@ -51,9 +52,11 @@
 								<header class="major">
 									<h2>What am I doing now?</h2>
 								</header>
-								I'm currently working on my PhD Thesis and hope to defend June 2020. I'm also currently working on a bunch of side projects
-								related to machine learning. I'm doing this to learn more about games, and different machine learning techniques.
-								I'm also trying to get back into photography, which I picked up a few years ago.
+								I'm currently doing a ton of things! First, I'm working on my PhD dissertation and hope to defend July/August 2020.
+								I've also been studying up on deep learning and reinforcement learning, and started working on research questions
+								in these areas.
+								Finally, I've been working on a bunch of side projects related to machine learning and games 
+								to learn more about these subjects!
 							</div>
 						</section>
 
@@ -63,8 +66,7 @@
 									<h2>Who am I?</h2>
 								</header>
 								<p>I'm a PhD candidate at Drexel University studying Computer Science where I work at the intersection AI, Machine Learning,
-									and games.
-									When I'm not working on research, I can be found working on personal projects, playing games, and exercising.
+									and games. When I'm not working on research, I can be found working on personal projects, playing games, or exercising.
 								</p>
 								<p>I did my undegraduate B.S in Computer Science and M.S. in Computer Science at Drexel University.
 									For my undergraduate studies, I focused on Artifical Intelligence, Systems, and Algorithms. I also did a minor in Computer
@@ -85,26 +87,20 @@
 									<h2>Research Statement</h2>
 								</header>
 								<p>
-								My research interests lie at the intersection of machine learning, planning, plan and goal recognition, and games.
-								My current research looks at applying machine learning techniques for automatically generating hierarchical
-								plan models for domain-configurable planning and plan recognition from training data.
-								Specifically I focus on learning Combinatory Categorial Grammars (CCGs) for planning and plan recognition in games.
-								</p>
-								<p>
-								Here is my <a href="https://www.dropbox.com/s/n6gq3lm3muti8ep/Pavan-CV.pdf?dl=0">Curriculum Vitae</a>. Feel free to take a look!
-								</p>
+								My research focus lies at the intersection of machine learning, computer games, AI planning, and AI plan and goal recognition. 
+								In particular, my current research looks at the use of machine learning and AI techniques for 
+								playing and modeling player knowledge and strategies in computer games, such as open world games and Real-Time Strategy Games. 
 								<h3>Research Areas:</h3>
 								<ul class="feature-icons">
-									<li class="fa-laptop">Machine Learning (Main focus)</li>
-									<li class="fa-cubes">Planning</li>
-									<li class="fa-cubes">Plan and Goal Recognition</li>
-									<li class="fa-book">Natural Language Processing</li>
+									<li class="fa-laptop">Machine Learning</li>
+									<li class="fa-cubes">AI Planning</li>
+									<li class="fa-cubes">AI Plan and Goal Recognition</li>
+									<li class="fa-book">Game Playing</li>
 								</ul>
 								<h3>Application Areas:</h3>
 								<ul class="feature-icons">
-									<li class="fa-gamepad">Video Games (Focusing on Real-Time Strategy Games)</li>
+									<li class="fa-gamepad">Computer Games</li>
 								</ul>
-
 							</div>
 						</section>
 						<section id="four">
@@ -115,41 +111,45 @@
 								<h3>Publications</h3>
 								<h4>Journal Articles</h4>
 								<ol>
-									<li> Manousakis, Kyriakos, et al., <b>Torrent-Based Dissemination in Infrastructure-Less Wireless
-										Networks</b> <i>Journal of Cyber Security</i> 4: 1-22. </li>
+									<li> Kyriakos Manousakis, Sharanya Eswaran, David Shur, Gaurav Naik, Pavan Kantharaju, William Regli and Brian Adamson. <b>Torrent-Based Dissemination in Infrastructure-Less Wireless
+										Networks</b>, <i>Journal of Cyber Security</i>, 4: 1-22.</li>
 								</ol>
 								<h4>Conference Proceedings</h4>
 								<ol>
-									<li> Christopher Geib, Janith Weerasinghe, Sergey Matskevich, Pavan Kantharaju, Ronald P. A. Petrick, and
-										Bart Craenen, <b>Building Helpful Virtual Agents Using Plan Recognition and Planning</b>, <i>Proceedings
-											of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE)</i>
-										2016, pp.162-168, 2016. </li>
-									<li> Christopher Geib and Pavan Kantharaju, <b>Learning Combinatory Categorial Grammars for Plan
-											Recognition</b> <i> In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence
-											2018</i>, 2018.</li>
-									<li> Pavan Kantharaju, Santiago Ontañón, Christopher Geib, <b><span>&#181;</span>CCG, a CCG-based
-											Game-Playing Agent for <span>&#181;</span>RTS</b>, <i>In Proceedings of IEEE Conference on Computational
-											Intelligence and Games (CIG) 2018</i>, 2018</li>
-									<li> Pavan Kantharaju, Katelyn Alderfer, Jichen Zhu, Bruce Char, Brian Smith and Santiago Ontañón <b>Tracing
+									<li> Pavan Kantharaju, Santiago Ontañón and Christopher Geib. <b>Scaling up CCG-Based Plan Recognition via Monte-Carlo Tree Search</b>,
+										<i>In Proceedings of the IEEE Conference on Games (CoG) 2019</i>, 2019</li>
+									<li> Pavan Kantharaju, Katelyn Alderfer, Jichen Zhu, Bruce Char, Brian Smith and Santiago Ontañón. <b>Tracing
 											Player Knowledge in a Parallel Programming Educational Game</b>, <i>In Proceedings of the AAAI
 											Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) 2018</i>, 2018</li>
+									<li> Pavan Kantharaju, Santiago Ontañón and Christopher Geib. <b><span>&#181;</span>CCG, a CCG-based
+											Game-Playing Agent for <span>&#181;</span>RTS</b>, <i>In Proceedings of IEEE Conference on Computational
+											Intelligence and Games (CIG) 2018</i>, 2018</li>
+									<li> Christopher Geib and Pavan Kantharaju.  <b>Learning Combinatory Categorial Grammars for Plan
+											Recognition</b> <i> In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence
+											2018</i>, 2018.</li>
+									<li> Christopher Geib, Janith Weerasinghe, Sergey Matskevich, Pavan Kantharaju, Ronald P. A. Petrick and
+												Bart Craenen. <b>Building Helpful Virtual Agents Using Plan Recognition and Planning</b>, <i>In Proceedings
+													of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE) 
+											2016</i>, 2016. </li>
 								</ol>
 								<h4>Workshop Papers</h4>
 								<ol>
-									<li> Pavan Kantharaju, Santiago Ontañón, Christopher Geib, <b>Extracting CCGs for Plan Recognition in RTS
-											Games</b>, <i>In Proceedings of Workshop on Knowledge Extraction in Games 2019</i>, 2019</li>
-									<li> Pavan Kantharaju, Santiago Ontañón, Christopher Geib, <b>Scaling up CCG-Based Plan Recognition via Monte-Carlo Tree Search</b>,
-											<i>In Proceedings of the IEEE Conference on Games 2019</i>, 2019</li>
-									<li> Pavan Kantharaju, Santiago Ontañón, Christopher Geib, Mark Roberts
+									<li> Pavan Kantharaju, Santiago Ontañón, Christopher Geib and Mark Roberts.
 										<b>Combinatory Categorial Grammar Learning for Plan Recognition in Domains with Type Trees</b>,
-										<i>In Proceedings of the Workshop on Plan, Activity, and Intent Recognition 2020</i>, 2020</li>
-									<li> Irina Rabkina, Pavan Kantharaju, Mark Roberts, Jason Wilson, Kenneth Forbus, Laura Hiatt
+										<i>In Workshop on Plan, Activity, and Intent Recognition (PAIR) 2020</i>, 2020</li>
+									<li> Irina Rabkina, Pavan Kantharaju, Mark Roberts, Jason Wilson, Kenneth Forbus and Laura Hiatt.
 											<b>Recognizing the Goals of Uninspectable Agents</b>,
-											<i>In Proceedings of the Workshop on Plan, Activity, and Intent Recognition 2020</i>, 2020</li>
+											<i>In Workshop on Plan, Activity, and Intent Recognition (PAIR) 2020</i>, 2020</li>
+									<li> Pavan Kantharaju, Santiago Ontañón and Christopher Geib. <b>Extracting CCGs for Plan Recognition in RTS
+											Games</b>, <i>In Workshop on Knowledge Extraction in Games (KEG) 2019</i>, 2019</li>
+
 								</ol>
 								<h3>Research Code</h3>
-								I'm currently in the process of opening up my research code to the public. I'll update this section as that
-								happens.
+									<ol>
+										<li>
+											<a href=https://github.com/Teravolt/microccg><span>&#181;</span>CCG</a> - Game-Playing Agent used in CIG 2018 <span>&#181;</span>RTS Competition
+										</li>
+									</ol>
 								<h3>Research Datasets</h3>
 								I'm currently in the process of opening up my research datasets to the public. I'll update this section as that
 								happens.
