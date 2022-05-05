@@ -2390,6 +2390,46 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
+/* Feature Icons (single column) */
+
+ul.feature-icons-sc {
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.feature-icons-sc li {
+		text-decoration: none;
+		display: inline-block;
+		margin: 0 0 1.6875em 0;
+		padding: 0.35em 0 0 3.5em;
+		position: relative;
+		vertical-align: top;
+		width: 100%;
+	}
+
+		ul.feature-icons-sc li:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		ul.feature-icons-sc li:before {
+			background: #4acaa8;
+			border-radius: 100%;
+			color: #ffffff;
+			display: block;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.5em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
+
 /* Icons */
 
 	ul.icons {
