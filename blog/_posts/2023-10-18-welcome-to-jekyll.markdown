@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2023-10-18 00:05:16 -0400
 categories: jekyll update
+katex: True
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -21,6 +23,10 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+$$
+l_T = \sum_{i=1}^{B} log\Big[\frac{e^{c*{\cal I}_i*{\cal T}_i}}{\sum_{j=1}^{B} e^{c*{\cal I}_j*{\cal T}_i}}\Big]
+$$
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
