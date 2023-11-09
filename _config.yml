@@ -33,7 +33,6 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-jupyter-notebook
 
 domain: Teravolt.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://Teravolt.github.io  # the base hostname and protocol for your site, e.g. http://example.com
