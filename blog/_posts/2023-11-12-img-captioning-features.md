@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Understanding the Feature Space of an Image Captioning Model for Pokémon Cards"
-date:   2023-10-18 00:05:16 -0400
+date:  2023-11-12 00:00:00 -0400
 categories: image-captioning feature-space
 katex: True
+comments: True
 ---
 
 In this post, I extend a [prior project](https://api.wandb.ai/links/pkthunder/93zvdw8r) that fine-tuned a vision-language model to caption Pokémon cards.
