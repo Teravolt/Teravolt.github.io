@@ -20,6 +20,8 @@ While the main goal was to learn about MRL and test it for classification, there
 First, I'll provide a brief description of MRL and the models I used for this study.
 I'll then provide a description of the Cats vs. Dogs dataset I used for my experiment, the experiment setup, and experiment results.
 
+Code for this blog post can be found in my [Github repo](https://github.com/Teravolt/animal-representation-learning).
+
 ## Matryoshka Representation Learning
 
 Dense representations contain characteristics about data compressed into a $$d$$-dimensional fixed-capacity vector.
